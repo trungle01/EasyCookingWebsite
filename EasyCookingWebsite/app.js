@@ -42,3 +42,5 @@ app.use("/views", express.static(path.resolve(__dirname + '/views')));
 app.listen(app.get("port"), function () {  //  listening on port 1337
     console.log("Server started on port " + app.get("port"));
 })
+
+module.exports = app;
